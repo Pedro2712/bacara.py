@@ -51,7 +51,6 @@ while controle:
                     break
         #o programa irá embaralhar as cartas.
             random.shuffle(baralho)
-            print (baralho)
         #o programa vai entregar as cartas para o jogador e para o banco (utilizando o contador i).
             primeira_carta= baralho[i]
             i+= 1
